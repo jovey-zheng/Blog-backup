@@ -1,29 +1,76 @@
-title: 生成SSH keys
-date: 2015.09.07 15:04:33
-tags: SSH git 加密
+title: 使用Git管理项目-起步
+date: 2015.09.07 12:06:21
+categories:
+- Git
+tags:
+- git
+- 项目管理
 ---
-首先确认自己的系统中是否已经拥有密钥。在默认情况下SSH的密钥存储在其`~/.ssh`目录下。可以使用以下命令进入目录并列出内容：
-> $ cd ~/.ssh
-$ ls
-id_rsa  id_rsa.pub  known_hosts
+# 关于版本控制
+提到版本控制，那么我会想到的是SVN以及这里要说的Git。那什么是版本控制呢？版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。
 
-其中`id_rsa`和`id_rsa.pub`就是存储密钥的文件，带有`.pub`后缀的是公钥，另外一个则是私钥。如果存在这些文件，则可以直接用`$ cat id_rsa.pub`来读取密钥内容。
-如果找不到这样的文件（或者不存在`~/.ssh`目录），则可以通过`$ ssh-keygen`来创建它们。
-> $ ssh-keygen -t rsa -C `you@email.com`
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/schacon/.ssh/id_rsa):
-Created directory '/home/schacon/.ssh'.
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /home/schacon/.ssh/id_rsa.
-Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
-The key fingerprint is:
-d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 you@email.com
+# Git基础-三种状态
+Git 有三种状态，你的文件可能处于其中之一：已提交（committed）、已修改（modified）和已暂存（staged）。
 
-首先 `$ ssh-keygen`会确认密钥的存储位置（默认是` .ssh/id_rsa`），然后它会要求你输入两次密钥口令。如果你不想在使用密钥时输入口令，将其留空即可（为了方便以后操作，建议不设置密码）。
+![工作目录、暂存区域和Git仓库](http://upload-images.jianshu.io/upload_images/741039-4ff4205ccbd9519b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-在完成上述操作之后即可获得SSH key，获得的公钥大概是这样的：
-> $ cat id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAmzM2RosSFanpxK+d3Eagt3Wicef9QbgH1x4yH3MFg2+6vIuFXchl+L3gMZabWH3BzKpBwoJICg8q9k4N8nOf5LNPtIp74hnEj/1b9Nh7OLrri82Ao6FYEdkC0NVsfhKlqha10MQrYxctimabtuKZdoUvv0knSawwvql2mvCIDra2D2350ICycZi0Fg1QULF3QdDF8Emtnvso1a5a9jgzf3tyHX6+r7lGnA+Ifzr8bxC4sqZ+aN0R7dn4uqQETF7l+n16dd370Efvbvj8CabZqVs7r5j/fdltcmSrH3i97Yfq0XsM0CIxltOIb8+MhkRzHAXdjWY51LyfyHtyysbgHw== you@email.com
+Git 仓库目录是 Git 用来保存项目的元数据和对象数据库的地方。 这是 Git 中最重要的部分，从其它计算机克隆仓库时，拷贝的就是这里的数据。
 
-关于在多种操作系统中生成 SSH 密钥的更深入教程，请参阅 GitHub 的 SSH 密钥指南：[*https://help.github.com/articles/generating-ssh-keys*](https://help.github.com/articles/generating-ssh-keys)
+工作目录是对项目的某个版本独立提取出来的内容。 这些从 Git 仓库的压缩数据库中提取出来的文件，放在磁盘上供你使用或修改。
+
+暂存区域是一个文件，保存了下次将提交的文件列表信息，一般在 Git 仓库目录中。 有时候也被称作“索引”，不过一般说法还是叫暂存区域。
+
+基本的 Git 工作流程如下：
+```
+1.在工作目录中修改文件。
+
+2.暂存文件，将文件的快照放入暂存区域。
+
+3.提交更新，找到暂存区域的文件，将快照永久性存储到 Git 仓库目录。
+```
+如果 Git 目录中保存着的特定版本文件，就属于已提交状态。 如果作了修改并已放入暂存区域，就属于已暂存状态。 如果自上次取出后，作了修改但还没有放到暂存区域，就是已修改状态。
+
+# 如何安装Git
+
+> **Mac**: brew install git
+
+> **Linux(Debian)** : apt-get install git-core
+
+> **Linux(Fedora)** : yum install git-core
+
+> **Windows** : 下载安装 [Git](http://git-scm.com)
+
+配置
+```
+$ git config --global user.name "your name"
+```
+```
+$ git config --global user.email "youremail@email.com"
+```
+使用 `--global` 可以使该命令只执行一次。
+
+你可以通过如下的命令来查看你的配置信息：
+```
+$ git config --list
+
+user.email=joveyzheng@qq.com
+
+user.name=joveyzheng
+
+color.status=auto
+
+...
+```
+你可以通过输入 `$ git config <key> ` 来查看某一项的配置
+```
+$ git config user.name
+
+joveyzheng
+```
+# 获取帮助
+```
+$ git help
+```
+
+
+文中多处借鉴《Git pro》，想获得更多了解推荐阅读： [Git Pro](http://git-scm.com/book/zh/v2)
