@@ -10,7 +10,7 @@ menu:
 # site-search
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /blog/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo,next"
