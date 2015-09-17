@@ -1,10 +1,11 @@
 title: NPM一些常用命令
 date: 2015-09-17 15:57:11
 categories:
-  - npm
+  - 开发日常
 tags:
   - npm
   - module
+  - nodejs
 ---
 # 关于NPM
 

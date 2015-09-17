@@ -1,0 +1,102 @@
+# Hexo Configuration
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 心有猛虎 细嗅蔷薇
+subtitle:
+description: 北理珠11级，目前就职于ERS。Front End | Nodejs ...
+keywords: "前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,html,css,css3,用户体验"
+author: Jovey Zheng
+language: zh-Hans
+email: jovey.zheng@gmail.com
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://jovey-zheng.github.io/blog
+root: /blog/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 4
+pagination_dir: page
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+## Themes: http://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: http://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: git@github.com:jovey-zheng/blog.git
+  branch: gh-pages
+  message:
+
+# Social
+social:
+  GitHub: https://github.com/jovey-zheng
+  Twitter: https://twitter.com/JoveyZheng
+  Weibo: http://weibo.com/u/1633564683
+  Google+: https://plus.google.com/111677254402310863180/posts
+  Facebook: https://www.facebook.com/profile.php?id=100010207239121
+
+# Swiftype Search Key
+swiftype_key: **
+
+# baidu_analytics
+baidu_analytics: **
+
+# JiaThis 分享服务
+jiathis: true
+
+# 百度分享服务
+# baidushare: true
+
+# 多说评论
+duoshuo_shortname: joveyzheng
+
+# 多说热评文章
+duoshuo_hotartical: true

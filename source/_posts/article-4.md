@@ -1,10 +1,10 @@
 title: Brunch:快捷的HTML5构建工具
 date: 2015.09.08 14:48:25
 categories:
-- 笔记随笔
+	- 笔记随笔
 tags:
-- Brunch
-- 构建工具
+	- Brunch
+	- 构建工具
 ---
 ![Brunch](/blog/images/article_img/2.png)
 # 了解Brunch（官方介绍）
