@@ -25,6 +25,8 @@ Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
 The key fingerprint is:
 d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 you@email.com
 
+<!-- more -->
+
 首先 `$ ssh-keygen`会确认密钥的存储位置（默认是` .ssh/id_rsa`），然后它会要求你输入两次密钥口令。如果你不想在使用密钥时输入口令，将其留空即可（为了方便以后操作，建议不设置密码）。
 
 在完成上述操作之后即可获得SSH key，获得的公钥大概是这样的：

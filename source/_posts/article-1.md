@@ -12,13 +12,14 @@ tags:
 # Git基础-三种状态
 Git 有三种状态，你的文件可能处于其中之一：已提交（committed）、已修改（modified）和已暂存（staged）。
 
-![工作目录、暂存区域和Git仓库](http://upload-images.jianshu.io/upload_images/741039-4ff4205ccbd9519b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![工作目录、暂存区域和Git仓库](/blog/images/article_img/1.png)
 
 Git 仓库目录是 Git 用来保存项目的元数据和对象数据库的地方。 这是 Git 中最重要的部分，从其它计算机克隆仓库时，拷贝的就是这里的数据。
 
 工作目录是对项目的某个版本独立提取出来的内容。 这些从 Git 仓库的压缩数据库中提取出来的文件，放在磁盘上供你使用或修改。
 
 暂存区域是一个文件，保存了下次将提交的文件列表信息，一般在 Git 仓库目录中。 有时候也被称作“索引”，不过一般说法还是叫暂存区域。
+<!-- more -->
 
 基本的 Git 工作流程如下：
 ```

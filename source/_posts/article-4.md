@@ -6,7 +6,7 @@ tags:
 - Brunch
 - 构建工具
 ---
-![Brunch](http://upload-images.jianshu.io/upload_images/741039-5cad4fb401a7a952.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Brunch](/blog/images/article_img/2.png)
 # 了解Brunch（官方介绍）
 * 编译你的脚本，模板，样式，链接它们
 * 将脚本和模板封装进common.js/AMD模块里，链接脚本和样式
@@ -33,6 +33,7 @@ tags:
 08 Sep 12:20:49 - log: Installing packages...
 
 当不指定输出文件夹时，必须保证放置新项目的文件夹为空，否则会`clone`失败。
+<!-- more -->
 
 # 构建 build
 > $ brunch build --production
