@@ -6,7 +6,7 @@
 title: 心有猛虎 细嗅蔷薇
 subtitle:
 description: 北理珠11级，目前就职于ERS。Front End | Nodejs ...
-keywords: "前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,html,css,css3,用户体验"
+keywords: "jovey,Nodejs,coffeescript,前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,html,css,css3,用户体验"
 author: Jovey Zheng
 language: zh-Hans
 email: jovey.zheng@gmail.com
@@ -89,6 +89,12 @@ swiftype_key: Eq6Hisgzq2b_MSGwmySM
 # baidu_analytics
 baidu_analytics: 7a046e8db6a48f2ab46b7812ba612789
 
+# google_analytics
+google_analytics: UA-67800719-1
+
+# google_site_verification
+google_site_verification: hURnC-1VtFyi-v7OYQhy-5eOj-XZW3BAIs6iqzQcQj8
+
 # JiaThis 分享服务
 jiathis: true
 
@@ -100,3 +106,6 @@ duoshuo_shortname: joveyzheng
 
 # 多说热评文章
 duoshuo_hotartical: true
+
+# Creative commons协议
+creative_commons: by-nc-sa
