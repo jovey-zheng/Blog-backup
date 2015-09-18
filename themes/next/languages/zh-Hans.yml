@@ -49,7 +49,7 @@ counter:
     other: "目前共计 %d 篇日志。"
 
 state:
-  posts: 日志
+  posts: 文章
   pages: 页面
   tags: 标签
   categories: 分类
