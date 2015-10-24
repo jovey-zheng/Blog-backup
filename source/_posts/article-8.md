@@ -6,7 +6,7 @@ tags:
  - ECharts
  - js
 ---
-![ECharts](http://upload-images.jianshu.io/upload_images/741039-852515d289a37549.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ECharts](/blog/images/article_img/3.png)
 
 # 关于ECharts（[ECharts](http://echarts.baidu.com/doc/about.html)）
 ECharts 是百度提供的一款开源、功能强大的数据可视化产品。
