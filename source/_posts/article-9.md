@@ -1,4 +1,4 @@
-title: article-9
+title: 使用 Git 管理项目 - reset 与 rebase
 date: 2015-11-04 17:49:09
 categories:
   - Git
