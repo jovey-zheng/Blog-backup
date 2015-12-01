@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 心有猛虎 细嗅蔷薇
-subtitle:
-description: 北理珠11级，目前就职于ERS。Front End | Nodejs ...
-keywords: "jovey,Nodejs,coffeescript,前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,html,css,css3,用户体验"
+title: Jovey's Notes
+subtitle: 心有猛虎 细嗅蔷薇
+description: Front End | Nodejs | React | Redux ...
+keywords: "jovey,Nodejs,react,redux,coffeescript,前端,js,jquery,javascript,html5,开发者,程序猿,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,html,css,css3,用户体验,Hexo,next..."
 author: Jovey Zheng
 language: zh-Hans
 email: jovey.zheng@gmail.com
@@ -15,7 +15,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://jovey-zheng.github.io/blog
-root: /blog/
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -65,7 +65,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: next
+theme: next-pisces
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -80,7 +80,7 @@ social:
   GitHub: https://github.com/jovey-zheng
   Twitter: https://twitter.com/JoveyZheng
   Weibo: http://weibo.com/u/1633564683
-  Google+: https://plus.google.com/111677254402310863180/posts
+  Google-Plus: https://plus.google.com/111677254402310863180/posts
   Facebook: https://www.facebook.com/profile.php?id=100010207239121
 
 # Swiftype Search Key
