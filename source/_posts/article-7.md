@@ -8,6 +8,7 @@ tags:
 ---
 [github](https://github.com/) 提供了一个非常便捷的功能叫 **Fork**，即用户可以很方便的从别的仓库中复制一份代码到自己的名下。但是有一个不足是 [github](https://github.com/) 并不提供自动更新功能，那么此时就需要我们自己手动更新这个 **Fork** 仓库代码。
 
+# 基本方法
 1. 安装 [github客户端](https://desktop.github.com/) 或者 [Git](http://www.git-scm.com/download/)。
 2. **clone** 需要更新的 **Fork** 分支到本地：
  - github客户端：直接打开客户端，添加 **Fork** 分支，然后** clone**。

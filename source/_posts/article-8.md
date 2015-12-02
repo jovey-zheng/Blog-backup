@@ -27,7 +27,7 @@ ECharts 是百度提供的一款开源、功能强大的数据可视化产品。
 
 # 使用
 ECharts的使用很简单，以官方提供的为例分为下面几步：
-1. 新建一个 `test.html` 并放置一个 `div` 来承载图表：
+#### 1. 新建一个 `test.html` 并放置一个 `div` 来承载图表：
 
 ```html
 <!DOCTYPE html>
@@ -42,13 +42,13 @@ ECharts的使用很简单，以官方提供的为例分为下面几步：
 </html>
 ```
 
-2. 引入 `echarts.js` ：
+#### 2. 引入 `echarts.js` ：
 
 ```
 <script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
 ```
 
-3. 添加模块加载器配置 echarts 和所需图表的路径（相对路径为从当前页面链接到echarts.js），引入图表文件见[引入 ECharts2](http://echarts.baidu.com/doc/doc.html#引入ECharts2)：
+#### 3. 添加模块加载器配置 echarts 和所需图表的路径（相对路径为从当前页面链接到echarts.js），引入图表文件见[引入 ECharts2](http://echarts.baidu.com/doc/doc.html#引入ECharts2)：
 
 ```
 <script type="text/javascript">
@@ -61,7 +61,7 @@ ECharts的使用很简单，以官方提供的为例分为下面几步：
 </script>
 ```
 
-4. 动态加载echarts和所需图表，回调函数中可以初始化图表并驱动图表的生成，option见[API & Doc](http://echarts.baidu.com/doc/doc.html#Option)：
+#### 4. 动态加载echarts和所需图表，回调函数中可以初始化图表并驱动图表的生成，option见[API & Doc](http://echarts.baidu.com/doc/doc.html#Option)：
 
 ```
 require(
@@ -106,13 +106,13 @@ require(
 );
 ```
 
-5. 最后的样子：
-![](http://upload-images.jianshu.io/upload_images/741039-41774d66f5de150e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+#### 5. 最后的样子：
+![](/blog/images/article_img/3-1.png)
 
 # 重点- option 部分相关配置说明
 用户可以在 option 配置里自定义图标的样式。
 - title 标题：
-![](http://upload-images.jianshu.io/upload_images/741039-4b20a04ddb817324.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/blog/images/article_img/3-2.png)
 ```
 title : {
     text: '某地区蒸发量和降水量',  //文本
@@ -120,7 +120,7 @@ title : {
 }
 ```
 - toolbox 便捷的工具：
-![](http://upload-images.jianshu.io/upload_images/741039-b144b67c25fb7e82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/blog/images/article_img/3-3.png)
 ```
 toolbox: {
     show : true,  //是否显示工具栏
@@ -156,7 +156,7 @@ series : [
 - xAxis ： X 轴
 - yAxis ： Y 轴
 - legend ：
-![](http://upload-images.jianshu.io/upload_images/741039-7b625b354b1d39bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](/blog/images/article_img/3-4.png)
 ```
 legend: {
     orient : 'vertical',  //方向“垂直”，默认从左向右横向排列
