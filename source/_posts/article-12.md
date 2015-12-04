@@ -30,6 +30,8 @@ tags:
 **[CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce?hl=en)** 能集成很多工具和扩展程序去执行一个简单的任务。这使得它们更好地发挥功能。但没有 Chrome 扩展应用集合能在不集成的情况下可以完成这种功能。用法很简单，你只需点击工具栏的图标，然后将鼠标移到你想审查的元素上就可以了。
 <img src="http://i2.wp.com/p2html.com/blog/wp-content/uploads/2015/12/chrome-extension-web-design-04.png?w=520" />
 
+<!-- more -->
+
 ## CSS-Shack
 **[CSS-Shack](https://chrome.google.com/webstore/detail/css-shack/geiccgjkigajaicecnhdokggninehdlp)** 帮助你创建图层样式（就像你用如 PS 一样），并能生成一个 CSS 文件。
 <img src="http://i1.wp.com/p2html.com/blog/wp-content/uploads/2015/12/chrome-extension-web-design-05.png?w=520" />
