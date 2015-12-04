@@ -48,7 +48,7 @@ tags:
 <img src="http://i0.wp.com/p2html.com/blog/wp-content/uploads/2015/12/chrome-extension-web-design-08.png?w=520" />
 
 ## PageEdit
-**[PageEdit]** 能把 Chrome 变成所见即所得的编辑器，你可以用它编辑任何网页。
+**[PageEdit](https://chrome.google.com/webstore/detail/pageedit/ebkclgoaabaibghklgknnjdemknjaeic)** 能把 Chrome 变成所见即所得的编辑器，你可以用它编辑任何网页。
 <iframe width="640" height="400" src="https://www.youtube.com/embed/Ts4bSR1hpxg" frameborder="0" allowfullscreen></iframe>
 
 # 验证器与性能相关
