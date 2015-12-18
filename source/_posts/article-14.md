@@ -65,3 +65,5 @@ React 已经在开发者圈越来越流行了，并且有很多说明其技术�
 ## [Hit Chat](https://developer.atlassian.com/blog/2015/02/rebuilding-hipchat-with-react/)
 
 “The dev speed we’ve gained…proves that we can release new client features faster and with more confidence on this platform than on any native client.”
+
+[原文链接](https://blog.formidable.com/using-react-is-a-business-decision-not-a-technology-choice-63c4641c5f7#.o7fu0q9m6)
