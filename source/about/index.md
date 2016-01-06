@@ -1,7 +1,7 @@
 title: 关于
 ---
 # 关于我
-爱生活，爱编程，Github 死忠（欢迎 Follow 和 Star）
+爱生活，爱编程，Github 死忠（欢迎 [Follow](https://github.com/jovey-zheng) 和 Star）
 前端工程师，目标全栈！目前就职于 [ERS](http://www.ersinfotech.com/simp/index.html)，位置珠海
 喜欢简洁的代码，扁平的设计，酷炫的动画... XD
 喜欢篮球、羽毛球、跑步、健身等运动~~（有想法可以约喔 (╭￣3￣)╭）~~
