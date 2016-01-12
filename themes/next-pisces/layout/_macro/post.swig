@@ -102,8 +102,10 @@
             &nbsp; | &nbsp;
             <div class="fb-like" data-layout="button_count" data-share="true"></div>
           {% endif %}
-          {% if not is_index %}
-          <span id="busuanzi_container_page_pv"> | 热度 <span id="busuanzi_value_page_pv"></span> ℃</span>
+          {% if theme.leancloud_visitors.enable %}
+           <span id="{{ url_for(post.path) }}"class="leancloud_visitors"  data-flag-title="{{ post.title }}">
+                &nbsp; | &nbsp; {{__('post.visitors')}}
+                </span>
         {% endif %}
         </div>
       </header>
