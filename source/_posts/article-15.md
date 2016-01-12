@@ -39,6 +39,8 @@ tags:
 }
 ```
 
+<!-- more -->
+
 @supports 这个新的特性也有一个相对应的 JavaScript 方式，但这个特性还在实验阶段，希望我们可以很快用到！
 
 # [CSS Filters](https://davidwalsh.name/css-filters)
@@ -56,8 +58,6 @@ tags:
   -webkit-filter: blur(2px) grayscale (.5) opacity(0.8) hue-rotate(120deg);
 }
 ```
-
-<!-- more -->
 
 这类的过滤功能只是创建一个图片的原型，并且不会保存和导出来完成过滤器的功能。这对于图片管理或想处理任何一张图片来说很方便！
 

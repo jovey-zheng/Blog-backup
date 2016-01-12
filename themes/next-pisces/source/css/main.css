@@ -428,7 +428,7 @@ pre .javascript .function{color:#b294bb;}
 .post-nav-item a:active{top:2px;}
 .post-nav-item a i{font-size:12px;}
 .post-nav-prev{text-align:right;}
-.posts-expand .post-eof{display:block;margin:160px auto 120px;width:8%;height:1px;background:#ccc;text-align:center;}
+.posts-expand .post-eof{display:block;margin:40px auto 40px;width:8%;height:1px;background:#ccc;text-align:center;}
 .post:last-child .post-eof.post-eof.post-eof{display:none;}
 .post-gallery{display:table;table-layout:fixed;width:100%;border-collapse:separate;}
 .post-gallery-row{display:table-row;}

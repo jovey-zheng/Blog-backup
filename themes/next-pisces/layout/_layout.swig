@@ -67,5 +67,16 @@
   {% include '_scripts/third-party/baidushare.swig' %}
   {% include '_scripts/third-party/lean-analytics.swig' %}
 
+  {# LazyLoad #}
+  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $("#posts").find('img').lazyload({
+        placeholder: "{{ url_for(theme.images) }}/loading.gif",
+        effect: "fadeIn"
+      });
+    });
+  </script>
+
 </body>
 </html>

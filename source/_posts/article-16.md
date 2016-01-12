@@ -22,6 +22,8 @@ tags:
 
 **作者**：Nikolay Talanov
 
+<!-- more -->
+
 # [用 Canvas 和 HTML5 制作的粒子状按钮](http://codepen.io/igcorreia/pen/vEzmyV)
 
 <a href="http://codepen.io/igcorreia/pen/vEzmyV">
@@ -37,8 +39,6 @@ tags:
 </a>
 
 **作者**：François Lesenne
-
-<!-- more -->
 
 # [3D 弹出效果的按钮](http://codepen.io/ashleynolan/pen/djpCG)
 
