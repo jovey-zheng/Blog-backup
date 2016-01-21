@@ -23,6 +23,8 @@ tags:
 
 让我们开始吧！
 
+<!-- more -->
+
 ## 设置 Webpack
 本教程不是一个教如何使用 webpack，所以我不会详细说，但重要的是要了解基本的东西。
 Webpack 就像 Rails 中的 Assets Pipeline 一样。在基础层面上而言，在运行 react 应用时，
