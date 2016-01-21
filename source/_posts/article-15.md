@@ -3,6 +3,7 @@ date: 2015-12-22 15:50:56
 categories:
   - 好文分享
 tags:
+  - 译文
   - css
   - features
   - front-end
@@ -172,4 +173,4 @@ ol.slides li:after {
 
 就是这些：你可能不知道的 7 个关于 CSS 的事，一部分是临界的情况，其他一部分还是非常实用的。那么就大胆地去用它们吧！
 
-[原文链接](https://davidwalsh.name/css-facts)
+[**原文链接**](https://davidwalsh.name/css-facts)

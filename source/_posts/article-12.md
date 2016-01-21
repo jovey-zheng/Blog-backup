@@ -148,4 +148,4 @@ tags:
 
 之前还有一篇发布在 [Speckyboy Design Magazine](http://speckyboy.com/) 上的文章是[对于 Web 设计师和开发者非常有用的 20 个 Chrome 扩展应用](http://speckyboy.com/2015/12/03/chrome-extensions-web-designers-developers/)。
 
-* [原文链接](http://p2html.com/blog/25-chrome-extensions-for-web-designers-developers/)
+[**原文链接**](http://p2html.com/blog/25-chrome-extensions-for-web-designers-developers/)

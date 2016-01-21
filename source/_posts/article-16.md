@@ -3,6 +3,7 @@ date: 2015-12-24 09:57:22
 categories:
   - 好文分享
 tags:
+  - 译文
   - button
   - interactive
   - web
@@ -176,4 +177,4 @@ tags:
 
 **作者**：Zachary Minner
 
-[原文链接](http://www.noupe.com/design/20-code-snippets-for-interactive-buttons-93374.html)
+[**原文链接**](http://www.noupe.com/design/20-code-snippets-for-interactive-buttons-93374.html)

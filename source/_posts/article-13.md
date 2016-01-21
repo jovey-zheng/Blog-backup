@@ -3,6 +3,7 @@ date: 2015-12-07 09:48:17
 categories:
   - 好文分享
 tags:
+  - 译文
   - ReactJS
   - 教程
   - Tutorials
@@ -51,4 +52,4 @@ tags:
 
 这其实是一个“入门级”课程的详细教程。在开发 ReactJS 的过程中确保你都看了这些非常有用的资源！
 
-* [原文链接](http://www.logopearl.com/blog/best-tutorials-to-learn-reactjs/)
+[**原文链接**](http://www.logopearl.com/blog/best-tutorials-to-learn-reactjs/)
