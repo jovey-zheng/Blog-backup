@@ -27,6 +27,8 @@ React 起源于 Facebook 的内部项目，因为该公司对市场上所有 Jav
 * 可重用（Reusable）：每个组件都是具有独立功能的，它可以被使用在多个UI场景
 * 可维护（Maintainable）：每个小的组件仅仅包含自身的逻辑，更容易被理解和维护
 
+<!-- more -->
+
 生命周期：
 * Mounting：已插入真实 DOM
 * Updating：正在被重新渲染
