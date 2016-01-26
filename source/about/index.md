@@ -14,4 +14,3 @@ title: 关于
 # 联系方式
  * EMail： ** jovey.zheng@gmail.com **
  * QQ： ** 164043845 （记得备注） **
- * WeChat：<img src="/blog/images/myWechat.jpg" style="width: 120px; display: inline-block; vertical-align: text-top;" />
