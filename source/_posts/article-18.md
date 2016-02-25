@@ -193,7 +193,7 @@ app.listen(process.env.PORT, function(err) { //在没有端口的情况下，会
 在使用 Redux 后，state 就变得很容易维护，而且数据流非常清晰，容易解决遇到的 BUG。
 
 我们可以看下图来简要地理解 Redux：
-![](http://upload-images.jianshu.io/upload_images/741039-9b1a062a82fca163.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://pic3.mojiax.com/mdimg/2016225/o_1acbp1n1r1qq9107d1enudoa15dtc.png)
 
 我们可以在项目中看到的结构是：
 ```
