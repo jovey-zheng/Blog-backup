@@ -675,7 +675,7 @@ body{background:#f5f7f9;}
 .feed-link a:hover{background:none;color:#e34603;}
 .feed-link a:hover i{color:#e34603;}
 .links-of-author-item{display:inline-block;width:48%;}
-.links-of-author-item a{box-sizing:border-box;display:block;margin-right:0;padding:0 15px;text-decoration:none;}
+.links-of-author-item a{box-sizing:border-box;display:block;margin-right:0;padding:0 5px;text-decoration:none;}
 .links-of-author-item a:hover{border-radius:4px;background:#eee;}
 .links-of-author-item .fa{margin-right:4px;font-size:16px;}
 .links-of-author-item .fa-globe{font-size:15px;}
