@@ -109,3 +109,7 @@ duoshuo_hotartical: true
 
 # Creative commons协议
 creative_commons: by-nc-sa
+
+# plugins
+plugins:
+  hexo-generate-feed
