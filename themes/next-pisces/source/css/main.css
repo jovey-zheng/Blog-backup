@@ -580,7 +580,7 @@ pre .javascript .function{color:#b294bb;}
 .category-all-page .category-list-count:after{display:inline;content:") ";}
 .page-post-detail .sidebar-toggle-line{background:#222;}
 .page-post-detail .comments{overflow:hidden;}
-body{background:#f5f7f9;}
+body{background: url('/blog/images/wood.png') repeat; background-attachment: fixed;}
 @media (min-width:992px){.full-image.full-image.full-image{max-width:none;width:118%;margin:0 -9%;}
 }
 .header{position:relative;margin:0 auto;width:960px;}
