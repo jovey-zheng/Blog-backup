@@ -71,7 +71,7 @@ scheme: Pisces
 # Social links
 social:
   GitHub: https://github.com/jovey-zheng
-  Twitter: https://twitter.com/JoveyZheng
+  # Twitter: https://twitter.com/JoveyZheng
   Weibo: http://weibo.com/u/1633564683
   Facebook: https://www.facebook.com/profile.php?id=100010207239121
   JianShu: http://www.jianshu.com/users/9de90a2d9205/latest_articles
@@ -81,7 +81,7 @@ social_icons:
   enable: true
   # Icon Mappings
   GitHub: github
-  Twitter: twitter
+  # Twitter: twitter
   Weibo: weibo
   Facebook: facebook-square
   JianShu: heartbeat
