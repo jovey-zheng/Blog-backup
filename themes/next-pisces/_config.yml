@@ -26,11 +26,11 @@ since: 2015
 # When running hexo in a subdirectory (e.g. domain.tld/blog)
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
-  home: /
-  categories: /categories
-  about: /about
-  archives: /archives
-  tags: /tags
+  home: /blog
+  categories: /blog/categories
+  about: /blog/about
+  archives: /blog/archives
+  tags: /blog/tags
   # commonweal: /blog/404.html
 
 
