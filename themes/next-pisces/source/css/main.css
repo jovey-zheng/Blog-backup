@@ -166,7 +166,7 @@ body{height:100%;}
 .header-inner{margin:0 auto;padding:100px 0 70px;width:700px;}
 @media (min-width:1600px){.container .header-inner{width:900px;}
 }
-.main{padding-bottom:150px;}
+.main{padding-bottom:100px;}
 .main-inner{margin:0 auto;width:700px;}
 @media (min-width:1600px){.container .main-inner{width:900px;}
 }
@@ -279,7 +279,7 @@ pre .javascript .function{color:#b294bb;}
 .post-more-link .btn:hover{border-color:#222;color:#fff;background:#222;}
 .btn-bar{display:block;width:22px;height:2px;background:#555;border-radius:1px;}
 .btn-bar+.btn-bar{margin-top:4px;}
-.pagination{margin:120px 0 40px;text-align:center;border-top:1px solid #eee;}
+.pagination{margin:70px 0 40px;text-align:center;border-top:1px solid #eee;}
 .page-number-basic,
 .pagination .prev,
 .pagination .next,
