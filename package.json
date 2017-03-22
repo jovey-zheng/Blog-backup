@@ -1,7 +1,16 @@
 {
   "name": "hexo-site",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
+  "author": "Jovey Zheng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovey-zheng/Blog-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jovey-zheng/Blog-backup/issues"
+  },
+  "homepage": "http://jovey-zheng.github.io/blog/",
   "scripts": {
     "server": "node_modules/hexo/bin/hexo server -p 3000",
     "clean": "node_modules/hexo/bin/hexo clean",
@@ -14,7 +23,7 @@
     "version": "3.1.1"
   },
   "dependencies": {
-    "hexo": "^3.1.0",
+    "hexo": "^3.1.1",
     "hexo-deployer-git": "0.0.4",
     "hexo-generator-archive": "^0.1.2",
     "hexo-generator-category": "^0.1.2",
