@@ -16,8 +16,8 @@
     "clean": "node_modules/hexo/bin/hexo clean",
     "debug": "npm run server --debug",
     "silent": "npm run server --silent",
-    "generate": "node_modules/hexo/bin/hexo generate",
-    "deploy": "node_modules/hexo/bin/hexo generate -d -w"
+    "generate": "node_modules/hexo/bin/hexo generate -w",
+    "deploy": "node_modules/hexo/bin/hexo deploy"
   },
   "hexo": {
     "version": "3.1.1"
